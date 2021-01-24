@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body {
@@ -190,13 +190,13 @@ span {
 }
 
 #Intro {
-    height: 140vh;
+    height: 125vh;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .Ititle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 142, 73);
@@ -207,9 +207,9 @@ span {
 .introwords {
 
     font-family: 'lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-top: 5rem;
     margin-left: 5rem;
 }
@@ -217,10 +217,10 @@ span {
 .introwords2 {
     text-align: right;
     font-family: 'lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 30px;
-    color: rgb(255, 255, 255);
-    padding-top: 15rem;
+    color: rgb(0, 0, 0);
+    padding-top: 10rem;
     margin-right: 5rem;
 }
 
@@ -229,20 +229,16 @@ span {
     height: 450px;
     width: 750px;
     margin-right: 5rem;
-    -webkit-box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
-    -moz-box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
-    box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .introimg2 {
     float: left;
     height: 450px;
     width: 750px;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 5rem;
-    -webkit-box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
-    -moz-box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
-    box-shadow: -2px 0px 0px 10px rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #Issues {
@@ -252,7 +248,7 @@ span {
 }
 
 .IStitle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
@@ -267,7 +263,7 @@ span {
 }
 
 .Ttitle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
@@ -282,7 +278,7 @@ span {
 }
 
 .Ftitle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
@@ -297,7 +293,7 @@ span {
 }
 
 .Stitle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
@@ -312,7 +308,7 @@ span {
 }
 
 .Rtitle {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
