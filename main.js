@@ -30,5 +30,17 @@ window.sr = ScrollReveal();
             distance: '1400px'
         });
 
+        sr.reveal('.jmleg', {
+            duration: 3500,
+            origin: 'top',
+            distance: '1400px'
+        });
+
+        sr.reveal('.jmleg2', {
+            duration: 3500,
+            origin: 'top',
+            distance: '1400px'
+        });
+
 
         
