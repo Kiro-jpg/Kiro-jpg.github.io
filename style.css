@@ -361,7 +361,7 @@ span {
     font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #e74c3c;
     padding-top: 5rem;
     margin-left: 5rem;
 }
@@ -569,4 +569,144 @@ ul .booking-card:hover .informations-container .more-information {
 
 .jmleg {
     margin-left: 32rem;
+}
+
+
+ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.das {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    background: #000000;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.asd {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    background: #000000;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.asd:hover {
+    background: #1b1b1ba6;
+}
+
+li.active {
+    flex: 5;
+    background: #1b1b1ba6;
+    cursor: default;
+}
+
+li.active h2 {
+    color: #e74c3c;
+}
+
+li.active .section-content {
+    flex: 4;
+    opacity: 1;
+    transform: scaleX(1);
+    color: #ffffff;
+    display: grid;
+    text-align: center;
+}
+
+li .section-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+li .section-title h2 {
+    font-weight: 900;
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    color: #e74c3c;
+}
+
+
+li .section-content {
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.25s 0.1s ease-out;
+}
+
+.solutionicon {
+    color: white;
+    margin-bottom: 35rem;
+}
+
+
+.soltext {
+    position: absolute;
+}
+
+.solutionissue {
+    position: absolute;
+    margin-bottom: 25rem;
+    margin-left: 9.6rem;
+}
+
+.solutionT {
+    position: absolute;
+    margin-bottom: 20rem;
+    margin-left: 8.9rem;
+}
+
+.solutionissue1 {
+    position: absolute;
+    margin-bottom: 25rem;
+    margin-left: 6.2rem;
+}
+
+.solutionT1 {
+    position: absolute;
+    margin-bottom: 20rem;
+    margin-left: 5.5rem;
+}
+
+.solutionissue2 {
+    position: absolute;
+    margin-bottom: 25rem;
+    margin-left: 7.2rem;
+}
+
+.solutionT2 {
+    position: absolute;
+    margin-bottom: 20rem;
+    margin-left: 8.2rem;
 }
