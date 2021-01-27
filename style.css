@@ -302,7 +302,7 @@ span {
 }
 
 #Timeline {
-    height: 100vh;
+    min-height: 190vh;
     width: 100%;
 
 }
@@ -568,11 +568,12 @@ ul .booking-card:hover .informations-container .more-information {
 }
 
 .jmleg {
-    margin-left: 32rem;
+    margin-left: 22rem;
 }
 
 
-ul {
+/*sol*/
+.qwert {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -611,17 +612,17 @@ ul {
     background: #1b1b1ba6;
 }
 
-li.active {
+.asd.active {
     flex: 5;
     background: #1b1b1ba6;
     cursor: default;
 }
 
-li.active h2 {
+.asd.active h2 {
     color: #e74c3c;
 }
 
-li.active .section-content {
+.asd.active .section-content {
     flex: 4;
     opacity: 1;
     transform: scaleX(1);
@@ -630,7 +631,7 @@ li.active .section-content {
     text-align: center;
 }
 
-li .section-title {
+.asd .section-title {
     flex: 1;
     display: flex;
     align-items: center;
@@ -641,7 +642,7 @@ li .section-title {
     color: white;
 }
 
-li .section-title h2 {
+.asd .section-title h2 {
     font-weight: 900;
     font-family: 'lato', sans-serif;
     font-size: 30px;
@@ -652,7 +653,7 @@ li .section-title h2 {
 }
 
 
-li .section-content {
+.asd .section-content {
     font-weight: 300;
     font-family: 'lato', sans-serif;
     font-size: 20px;
