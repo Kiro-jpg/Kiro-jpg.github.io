@@ -233,7 +233,7 @@ span {
     font-weight: 300;
     font-size: 30px;
     color: rgb(0, 0, 0);
-    padding-top: 10rem;
+    padding-top: 7rem;
     margin-right: 5rem;
 }
 
@@ -255,7 +255,7 @@ span {
 }
 
 #Issues {
-    height: 75vh;
+    min-height: 75vh;
     width: 100%;
 
 }
@@ -282,7 +282,7 @@ span {
 }
 
 .issuestext1 {
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'lato'sans-serif;
     font-size: 25px;
     margin-top: 5rem;
@@ -292,7 +292,7 @@ span {
 }
 
 .issuestext2 {
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'lato'sans-serif;
     font-size: 25px;
     margin-top: 5rem;
@@ -346,7 +346,6 @@ span {
     font-size: 20px;
     color: #000000;
     text-align: center;
-    padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -475,7 +474,7 @@ ul .booking-card .informations-container {
     flex: 1 0 auto;
     padding: 20px;
     background: #f0f0f0;
-    transform: translateY(130px);
+    transform: translateY(270px);
     transition: 0.3s;
 
 }
@@ -685,7 +684,7 @@ ul .booking-card:hover .informations-container .more-information {
 .solutionT {
     position: absolute;
     margin-bottom: 20rem;
-    margin-left: 8.9rem;
+    margin-left: 10.3rem;
 }
 
 .solutionissue1 {
@@ -709,5 +708,19 @@ ul .booking-card:hover .informations-container .more-information {
 .solutionT2 {
     position: absolute;
     margin-bottom: 20rem;
-    margin-left: 8.2rem;
+    margin-left: 9.7rem;
+}
+
+.solutionT3 {
+    position: absolute;
+    margin-bottom: 20rem;
+    margin-left: 9.3rem;
+}
+
+.namefig {
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
 }
